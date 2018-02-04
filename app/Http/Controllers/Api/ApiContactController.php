@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Api;
 
-use DB;
-use Validator;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 use App\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Database\QueryException;

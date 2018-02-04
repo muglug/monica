@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Auth;
 
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use App\User;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Account;
 use Carbon\Carbon;
 use App\Jobs\SendNewUserAlert;

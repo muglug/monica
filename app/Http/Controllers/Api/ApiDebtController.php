@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Debt;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;

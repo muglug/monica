@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Contact;
 use App\Reminder;
 use Illuminate\Http\Request;

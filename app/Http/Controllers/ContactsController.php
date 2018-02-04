@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use DB;
-use Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 use App\Tag;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Contact;
 use App\ContactFieldType;
 use App\Jobs\ResizeAvatars;

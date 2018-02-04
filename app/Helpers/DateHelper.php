@@ -2,7 +2,7 @@
 
 namespace App\Helpers;
 
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use Jenssegers\Date\Date;
 

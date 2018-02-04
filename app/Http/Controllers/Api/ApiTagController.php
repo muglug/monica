@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Tag;
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Database\QueryException;
 use App\Http\Resources\Tag\Tag as TagResource;

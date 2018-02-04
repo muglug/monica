@@ -2,7 +2,7 @@
 
 namespace App;
 
-use DB;
+use Illuminate\Support\Facades\DB;
 use Laravel\Cashier\Billable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Collection;

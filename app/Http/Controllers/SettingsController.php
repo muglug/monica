@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use DB;
-use Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 use App\Tag;
 use App\User;
 use App\ImportJob;

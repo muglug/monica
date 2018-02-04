@@ -2,7 +2,7 @@
 
 namespace App\Console\Commands;
 
-use DB;
+use Illuminate\Support\Facades\DB;
 use App\Account;
 use App\Statistic;
 use Illuminate\Console\Command;

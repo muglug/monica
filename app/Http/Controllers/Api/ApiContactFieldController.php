@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\Contact;
 use App\ContactField;
 use App\ContactFieldType;

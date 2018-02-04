@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Contacts;
 
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use App\Address;
 use App\Contact;
 use App\Country;

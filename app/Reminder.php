@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use App\Helpers\DateHelper;
 use Illuminate\Database\Eloquent\Model;

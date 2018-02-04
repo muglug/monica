@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api\Settings;
 
-use Validator;
+use Illuminate\Support\Facades\Validator;
 use App\ContactFieldType;
 use Illuminate\Http\Request;
 use Illuminate\Database\QueryException;

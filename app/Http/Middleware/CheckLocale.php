@@ -2,7 +2,8 @@
 
 namespace App\Http\Middleware;
 
-use Auth;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Auth;
 use Closure;
 use Carbon\Carbon;
 
@@ -18,7 +19,7 @@ class CheckLocale
     public function handle($request, Closure $next)
     {
         if (Auth::check()) {
-            \App::setLocale(Auth::user()->locale);
+            App::setLocale(Auth::user()->locale);
             Carbon::setLocale(config('app.locale'));
         }
 

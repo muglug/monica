@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Route;
+use Illuminate\Support\Facades\Route;
 use App\Day;
 use App\Pet;
 use App\Debt;
